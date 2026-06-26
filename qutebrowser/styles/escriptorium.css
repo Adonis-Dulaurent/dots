@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'Junicode';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Junicode'), url('https://htr-united.github.io/Junicode-font/webfiles/JunicodeVF-Roman.woff2') format('woff');
+}
+
+#transcription-panel, #diplo-panel, #trans-input-container, #teklia-virtual-keyboard, #teklia-virtual-keyboard * {
+    font-family: 'Junicode', sans-serif!important;
+}
+    #trans-input.form-control.mb-2.display-virtual-keyboard {
+        height:1.5em!important;
+        line-height:1.5em!important;
+        vertical-align: baseline;
+        padding-top:.5em!important;
+        margin-bottom:-.5em;
+    }
+    #teklia-virtual-keyboard .key-button .is-marginless {
+      font-size: 1.1em;
+      font-weight: bold;
+    }
+
+.light-mode {
+    --background: #CFD5FF;
+    --background1: #EBEDFF;
+    --text1: #5458D4;
+    --text2: #CB1A64;
+    --text3: #1E202F
+}
