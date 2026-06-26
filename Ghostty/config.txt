@@ -1,0 +1,52 @@
+ This is the configuration file by Adonis inspired by diinki for Ghostty.
+
+# Font 
+#font-family = Junicode 
+font-family = Perfect DOS VGA 437 Win
+font-size = 16 
+
+# Cursor
+shell-integration-features = no-cursor
+cursor-style = block
+background-blur-radius = 19
+
+window-padding-x = 7
+window-padding-y = 10
+
+window-decoration = true
+macos-option-as-alt = true 
+
+background-opacity = 0.92 
+background-blur-radius = 20 
+
+# some keybind
+keybind = option+n=text:~
+keybind = option+shift+:=text:\\
+keybind = option+shift+l=text:|
+keybind = option+shift+(=text:[
+keybind = option+shift+)=text:]
+keybind = option+(=text:{
+keybind = option+)=text:}  
+keybind = option+shift+f=text:·
+
+keybind = ctrl+shift+==increase_font_size:1.0
+keybind = ctrl+shift+-=decrease_font_size:1.0
+
+# color cherry 
+cursor-color =  #f4c9ef
+
+selection-background = #f4c9ef
+selection-foreground = #321d32
+
+background = #321d32
+foreground = #f4c9ef  
+
+
+#color classic
+#cursor-color =  #207874
+
+#selection-background = #d8d8d8
+#selection-foreground = #207874
+
+#background = #101010
+#foreground = #d8d8d8 
